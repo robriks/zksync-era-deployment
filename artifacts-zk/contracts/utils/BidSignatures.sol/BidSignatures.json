@@ -1,0 +1,127 @@
+{
+  "_format": "hh-zksolc-artifact-1",
+  "contractName": "BidSignatures",
+  "sourceName": "contracts/utils/BidSignatures.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "DOMAIN_SEPARATOR",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "auctionName",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "auctionAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "bidder",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "basePrice",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tip",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct BidSignatures.Bid",
+          "name": "bid",
+          "type": "tuple"
+        }
+      ],
+      "name": "hashBid",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "auctionName",
+              "type": "string"
+            },
+            {
+              "internalType": "address",
+              "name": "auctionAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "bidder",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "basePrice",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tip",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct BidSignatures.Bid",
+          "name": "bid",
+          "type": "tuple"
+        }
+      ],
+      "name": "hashTypedData",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "factoryDeps": {}
+}
